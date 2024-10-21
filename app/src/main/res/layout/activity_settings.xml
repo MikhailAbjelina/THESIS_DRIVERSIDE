@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        android:contentDescription="@string/back_button"
+        android:layout_gravity="start"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/bus_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bus Number"
+        android:inputType="textPassword"
+        android:background="@drawable/green_border"/>
+
+    <EditText
+        android:id="@+id/etCurrentPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Current Password"
+        android:inputType="textPassword"
+        android:background="@drawable/green_border"/>
+
+    <EditText
+        android:id="@+id/etNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/green_border"/>
+
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm New Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/green_border"/>
+
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
